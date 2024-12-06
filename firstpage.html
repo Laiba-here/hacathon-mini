@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firebase Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <!-- <input type="text" id="signupemail">
+    <input type="text" id="signuppassword">
+    <button id="Signupbutton"> submit</button>
+
+    <h2>login </h2>
+     <input placeholder="email" type="text" id="loginemail">
+    <input  placeholder ="password" id="loginpassword">
+    <button id="loginbutton"> click me</button>  -->
+
+
+
+
+
+ <div class="main">
+        <input type="checkbox" id="chk" aria-hidden="true">
+
+        <div class="signup">
+            <!-- <form> -->
+                <label for="chk" aria-hidden="true">Sign up</label>
+                <input type="text" name="txt" placeholder="User name" required="">
+                 <input  id="signupemail" type="email" name="email" placeholder="Email" required="">
+                <input id="signuppassword" type="text" name="pswd" placeholder="Password" required="">
+                <button id="Signupbutton" >Sign up</button>
+            <!-- </form> -->
+         </div>
+
+        <div class="login">   
+            <!-- <form> -->
+                <label for="chk" aria-hidden="true">Login</label>
+                <input  id="loginemail"   placeholder="email"   type="email" name="email" placeholder="Email" required="">
+                <input  id="loginpassword"   type="text" name="pswd" placeholder="Password" required="">
+                <button id="loginbutton"  >Login</button>
+            <!-- </form>   -->
+            <!-- -------- Sign in with Google button  - -->
+            <button id="googlebtn" type="button" class="login-with-google-btn">
+                Sign in with Google
+            </button>
+        </div>
+    </div>  
+
+
+
+
+<script type="module" src="firebase.js"></script>
+    <script  type="module" src="app.js" ></script>
+</body>
+</html> 
